@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 #topcard{
     background-image: url(./images/desktop/image-header.jpg);
-    height: 700px;
-    background-position: 50% 70%;
+    height: 1000px;
+    
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
 
 }
 #creatives{
@@ -13,10 +13,12 @@
     font-weight: 800;
     padding-top: 35px;
     font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
 }
 #arrowdiv{
     display: flex;
     justify-content: center;
     padding-left: 0;
-    padding-top: 25px;
+    padding-top: 190px;
 }
